@@ -1,5 +1,5 @@
 import random
 
 class Shuffle(object):
-    def run(self):
+    def roll_dice(self):
         return random.randint(1,6)
