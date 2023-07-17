@@ -9,4 +9,4 @@ class ShuffleInPython(unittest.TestCase):
         """Test shuffle test"""
         shuffler = Shuffle()
         expected_result = shuffler.roll_dice()
-        assert expected_result > 0 and expected_result <=6
+        assert 0 < expected_result <=6 # > 0 and expected_result <=6
